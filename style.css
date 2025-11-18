@@ -1,0 +1,55 @@
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.produto-card {
+    width: 300px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: 0.2s;
+    text-align: center;
+}
+
+.produto-card:hover {
+    transform: scale(1.02);
+}
+
+.produto-imagem {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.produto-nome {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.produto-preco {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.produto-descricao {
+    margin-top: 12px;
+    background: #eef2ff;
+    padding: 10px;
+    border-radius: 8px;
+}
